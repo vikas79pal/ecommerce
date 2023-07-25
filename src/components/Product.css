@@ -1,0 +1,81 @@
+.add--btn{
+width: 100px;
+border-radius: 20px;
+border: 2px solid rgb(99, 97, 97);
+font-size: 13px;
+padding: 5px;
+color: gray;
+font-weight: bold;
+cursor: pointer;
+}
+.price{
+color: rgb(219, 162, 57);
+font-size: 20px;
+font-weight: bold;
+}
+.price-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.img{
+/* min-height: 100%; */
+/* width: 90%; */
+
+}
+.pro-img{
+width: 50%;
+height: 150px;
+
+}
+.desc{
+color: rgb(177, 176, 174);
+font-size: 12px;
+width: 65%;
+text-align: left;
+margin-bottom: 15px;
+}
+.title{
+    white-Space: nowrap;
+    width:65%;
+    margin-top: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 15px;
+color: rgb(70, 66, 66);
+font-size: 20px;
+}
+.card:hover{
+    -webkit-box-shadow: 0px 0px 23px 34px rgba(150,148,150,0.16);
+-moz-box-shadow: 0px 0px 23px 34px rgba(150,148,150,0.16);
+box-shadow: 0px 0px 23px 34px rgba(150,148,150,0.16);
+transform: scale(1.1);
+/* transition-delay: 0.5s;  */
+transition: 0.5s;
+/* transition-duration: 0.5s; */
+transition-timing-function: ease-in-out;
+
+}
+.card{
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(150,148,150,1);
+-moz-box-shadow: 0px 0px 5px 1px rgba(150,148,150,1);
+box-shadow: 0px 0px 5px 1px rgba(150,148,150,1);
+
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 10px;
+    width: 23%;
+    background-color: rgb(255, 253, 253);
+    height: 350px;
+   margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
